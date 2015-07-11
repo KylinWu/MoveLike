@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Move the like button position in facebook chat box.
 // @author       KylinWu
-// @match        https://www.facebook.com/
+// @match        https://*.facebook.com/*
 // @grant        none
 // ==/UserScript==
 
