@@ -1,4 +1,9 @@
-function GetOutTheWayBitch() {           
+// ==UserScript==
+// @name Move Facebook Like Button
+// @version 1.0.0
+// @match https://*.facebook.com/*
+// ==/UserScript==
+(function (){
     setTimeout(function () {
         x = document.getElementsByClassName('_552n').length;
         for(var i=0; i<x; i++){
@@ -7,5 +12,4 @@ function GetOutTheWayBitch() {
         }
         GetOutTheWayBitch();
     }, 500)
-}
-GetOutTheWayBitch();
+})();
